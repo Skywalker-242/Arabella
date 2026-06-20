@@ -9,14 +9,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Lora:ital,wght@0,400;0,500&family=Playfair+Display:wght@600;700;800&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bg-top:#f8efe1;
-    --bg-bottom:#ecdcc4;
-    --ink:#3c3026;
-    --ink-soft:#6b5d4f;
-    --accent:#c17c6c;
-    --accent-soft:#e7c3b8;
-    --sage:#8aa583;
-    --paper:#fffaf3;
+    --bg-top:#f7f1fc;
+    --bg-bottom:#ddc6ef;
+    --ink:#3a2a4d;
+    --ink-soft:#6e5b82;
+    --accent:#8b5fae;
+    --accent-soft:#ddc6ee;
+    --sage:#6f5089;
+    --paper:#fdfaff;
   }
 
   *{ box-sizing:border-box; }
@@ -141,16 +141,16 @@
   .btn-yes{
     background:var(--accent);
     color:var(--paper);
-    box-shadow:0 6px 18px rgba(193,124,108,0.35);
+    box-shadow:0 6px 18px rgba(139,95,174,0.35);
   }
-  .btn-yes:hover{ box-shadow:0 8px 22px rgba(193,124,108,0.45); }
+  .btn-yes:hover{ box-shadow:0 8px 22px rgba(139,95,174,0.45); }
 
   .btn-no{
     background:transparent;
     color:var(--accent);
     border-color:var(--accent-soft);
   }
-  .btn-no:hover{ background:rgba(193,124,108,0.06); }
+  .btn-no:hover{ background:rgba(139,95,174,0.06); }
 
   .btn-no-long{
     max-width:84vw;
@@ -354,7 +354,7 @@ I need you to hear this clearly: this isn't about what you said when you were hu
      Confetti burst — Yes only
   --------------------------------------------- */
   function spawnConfetti(){
-    const colors = ['#c17c6c', '#e7c3b8', '#8aa583', '#f4d35e', '#fffaf3'];
+    const colors = ['#8b5fae', '#ddc6ee', '#5b3a7a', '#f4d35e', '#fdfaff'];
     const count = 60;
     const pieces = [];
 
